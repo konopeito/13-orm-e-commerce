@@ -29,7 +29,11 @@ THEN I am able to successfully create, update, and delete data in my database
 
 
 ## Project Preview
+Video
+https://github.com/JFritsch04/13-orm-e-commerce/blob/5fb4ec53aa2c6278493f1e4f8ef26716f31b5eb9/assets/13-video_walkthrough.mp4
 
+https://github.com/JFritsch04/13-orm-e-commerce/blob/5fb4ec53aa2c6278493f1e4f8ef26716f31b5eb9/assets/Screenshot%20(134).png 
+https://github.com/JFritsch04/13-orm-e-commerce/blob/5fb4ec53aa2c6278493f1e4f8ef26716f31b5eb9/assets/Screenshot%20(135).png
 
 ### Installation and Usage
 Git Clone the repo (local) and open in an IDE. Make sure you have node.js and npm installed ( `node -v` & `npm -v`). In the packages root directory, install the following packages: express.js, sequelize, mysql2, and dotenv (`npm i express` sequelize mysql2 dotenv). Also create a `.env` file in the root directory to save sensitive information such as your MYSQL username and password, and database name (`DB_NAME='', DB_USER='', DB_PW=''`). These variables are referenced in the /config/connection.js file. From the mysql shell, run source db/schema.sql; to create the schema, quit the mysql shell and run npm run seed to seed the tables. Finally run npm start to initiate the program, open Insomnia and the app is ready to test/demonstrate API routes: GET, POST, PUT, and DELETE for categories, products, and tags.
